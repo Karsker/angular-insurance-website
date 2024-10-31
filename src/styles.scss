@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-primary-green {
+        background-color: #138e83;
+    }
+
+    .text-primary-green {
+        color: #138e83
+    }
+
+    .border-primary-green {
+        border-color: #138e83;
+    }
+}
